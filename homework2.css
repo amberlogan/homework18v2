@@ -1,0 +1,85 @@
+nav {
+    height: 50px;
+    background-color: lightgrey;
+    text-align: center;
+    font-family: "Sofia", sans-serif; font-size: 16px;
+  }
+  .inline-block {
+    padding: 15px;
+    display: inline-block;
+  }
+
+  h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  h3 {font-family: "Sofia", sans-serif; font-size: 18px;}
+  p {font-family: "Sofia", sans-serif; font-size: 16px;}
+
+#container {
+    background-color: white;
+    height: 250px;
+}
+
+  .workblocks {
+    display: inline-block;
+    padding: 50px;
+  }
+
+  .left {
+    float: left;
+    height: 400px;
+    background-color: white;
+    width: 40%;
+    text-align: center;
+  }
+  .right {
+    float: left;
+    background-color: white;
+    height: 400px;
+    width: 60%;
+    text-align: center;
+  }
+
+  .flex_item {
+    padding:20px;
+    margin: 20px;
+    color: black;
+    text-align: left;
+    font-family: monospace; font-size: 16px;
+  }
+  .flex {
+    display: -webkit-inline-flex;
+    padding: 20px;
+    margin: 20px;
+  }
+  #column {
+    height: 500px;
+    width: 100%;
+    text-align: left;
+    flex-direction: column;
+  }
+
+  footer {
+    height: 30px;
+    background-color: lightgrey;
+    text-align: center;
+  }
+ 
+  @media only screen and (max-width: 1000px) {
+    #navigation {
+      display: none;
+    }
+    .icons {
+      margin-left: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    #headline {
+      position: static;
+      margin: 20px;
+    }
+  }
+  
